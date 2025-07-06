@@ -246,7 +246,7 @@ body {
         @apply flex-center flex-col min-h-dvh p-5 relative radial-gradient;
 
         h2 {
-            @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
+            @apply relative md:text-[20vw] text-6xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
         }
 
         .content {
@@ -259,7 +259,11 @@ body {
 
         .masked-container {
             h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+                @apply text-xl md:text-5xl font-modern-negra text-center text-amber-200 mt-6;
+            }
+
+            p{
+                @apply text-[14px] md:text-[16px];
             }
 
             div {
@@ -358,7 +362,7 @@ body {
         .content {
             @apply container mx-auto lg:py-14 2xl:py-32 py-16 flex flex-col justify-between gap-10 min-h-dvh;
 
-            h2 {
+            h2{
                 @apply lg:text-6xl 2xl:text-8xl text-5xl font-modern-negra md:translate-y-0 translate-y-5;
             }
 
