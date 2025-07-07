@@ -60,7 +60,7 @@ const Art = () => {
 
 				<div className="masked-container max-w-7xl mx-auto">
 					<h2 className="will-fade">Quality isn't a task — it's a discipline</h2>
-					<p className='text-center will-fade -mt-4'>
+					<p className='will-fade -mt-4 sm:text-center'>
 						A QA/QC Engineer with 3+ years of
 						hands-on experience in ensuring the
 						quality, reliability, and performance of
@@ -68,8 +68,8 @@ const Art = () => {
 						applications.
 					</p>
 					<div id="masked-content">
-						<h3>Made with Craft, Poured with Passion</h3>
-						<p>This isn’t just a drink. It’s a carefully crafted moment made just for you.</p>
+						{/* <h3>Made with Craft, Poured with Passion</h3> */}
+						<p className='text-sm sm:text-base px-2'>Once a banker, now a QA/QC engineer — committed to delivering quality and reliability in every project I undertake.</p>
 					</div>
 				</div>
 			</div>

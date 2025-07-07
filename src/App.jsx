@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import SplashCursor from './components/SplashCursor';
 import Art from './components/Art';
 import Contact from './components/Contact';
+import Skill from './components/Skill';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Navbar />
       <Hero />   
       <Art />
+      <Skill />
       <Contact />
     </main>
 
