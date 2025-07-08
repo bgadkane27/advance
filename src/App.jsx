@@ -6,9 +6,10 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import SplashCursor from './components/SplashCursor';
-import Art from './components/Art';
+import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Skill from './components/Skill';
+import Experience from './components/Experience';
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
       <SplashCursor />
       <Navbar />
       <Hero />   
-      <Art />
+      <AboutMe />
       <Skill />
+      <Experience />
       <Contact />
     </main>
 
