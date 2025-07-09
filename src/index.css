@@ -298,10 +298,6 @@ body {
             @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
         }
 
-        nav{
-            @apply bg-amber-300;
-        }
-
         .cocktail-tabs {
             @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-12 mb-20 relative z-10 md:max-w-7xl md:mx-auto;
 
@@ -335,13 +331,13 @@ body {
         }
 
         .recipe {
-            @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full lg:absolute bottom-25;
+            @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full lg:absolute bottom-5;
 
             .info {
                 @apply space-y-4 lg:translate-y-20;
 
                 #title {
-                    @apply font-modern-negra md:text-4xl text-2xl max-w-fit;
+                    @apply font-modern-negra md:text-4xl text-2xl max-w-fit text-yellow;
                 }
             }
 
@@ -349,11 +345,11 @@ body {
                 @apply space-y-5 md:max-w-md text-left;
 
                 h2 {
-                    @apply md:text-3xl text-xl font-serif;
+                    @apply md:text-3xl text-xl font-serif text-yellow;
                 }
 
                 p {
-                    @apply md:text-lg pe-5;
+                    @apply md:text-base pe-5;
                 }
             }
         }

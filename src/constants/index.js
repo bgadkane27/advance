@@ -33,31 +33,51 @@ export const allCocktails = [
 		name: "Expert Business Solutions",
 		image: "/images/enfinity.svg",
 		title: "QA/QC Enginner",
-		description:
-			"Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+		period: "March 2023 - Present",
+		list : [
+			"Designing, developing, and executing test cases to ensure software quality and compliance with business requirements.",
+			"Collaborating with cross-functional teams including developers, and product managers to understand requirements and plan testing activities.",
+			"Identifying, logging, and tracking defects in issue management tool - Visual Studio Team Services.",
+			"Performing manual and automated testing.",
+		]
 	},
 	{
 		id: 2,
 		name: "WebRelier Software Solutions Pvt Ltd",
 		image: "/images/webrelier.png",
 		title: "Software Test Engineer",
-		description:
-			"The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+		period: "Aug 2020 - Feb 2023",
+		list : [
+			"Analyze Requirements/Stories.",
+			"Identify test scenarios and create/update test cases.",
+			"Environment Setup - test data and tools.",
+			"Defect Reporting & Tracking.",
+		]
 	},
 	{
 		id: 3,
 		name: "YES Bank Ltd",
 		image: "/images/yesbank.svg",
 		title: "Senior Officer",
-		description:
-			"Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+		period: "Mar 2017 - Jul 2020",
+		list : [
+			"Handle core banking operations.",
+			"Processing the customer request.",
+			"Processing the forex transactions like inward and outward remittances.",
+			"Handling the gold loan sales and process.",
+		]
 	},
 	{
 		id: 4,
 		name: "HDFC Bank Ltd",
 		image: "/images/hdfc.png",
 		title: "Assistant Manager",
-		description:
-			"Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+		period: "Mar 2015 - Mar 2017",
+		list : [
+			"Handle the teller counter.",
+			"Check and process the account opening form.",
+			"Handle the branch audit.",
+			"processing the NEFT/RTGS/Fund Transfer requests.",
+		]
 	},
 ];
