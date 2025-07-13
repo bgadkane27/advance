@@ -140,3 +140,30 @@ export const projects = [
     link: "https://www.ltfinance.com/personal-loan",
   },
 ];
+
+export const contactLinks = [
+  {
+    id: 1,
+    label: "Phone",
+    value: "+91 9673929867",
+    link: "tel:+919673929867",
+  },
+  {
+    id: 2,
+    label: "Email",
+    value: "bgadkane@gmail.com",
+    link: "mailto:bgadkane@gmail.com",
+  },
+  {
+    id: 3,
+    label: "LinkedIn",
+    value: "linkedin.com/bgadkane",
+    link: "https://www.linkedin.com/in/baburao-adkane-443476250/",
+  },
+  {
+    id: 4,
+    label: "GitHub",
+    value: "github.com/bgadkane",
+    link: "https://github.com/bgadkane27",
+  },
+];

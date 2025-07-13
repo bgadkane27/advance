@@ -1,37 +1,37 @@
 import { useGSAP } from "@gsap/react";
 import Beams from "./Beams"
 import gsap from "gsap";
-import { SplitText } from "gsap/SplitText";
+// import { SplitText } from "gsap/SplitText";
 import PixelCard from "./PixelCard";
 
 const Hero = () => {
 
   useGSAP(() => {
-    const title = new SplitText(".title", {
-      type: "chars, words"
-    });
+    // const title = new SplitText(".title", {
+    //   type: "chars, words"
+    // });
 
-    const paragraphSplit = new SplitText(".subtitle", {
-      type: "lines",
-    });
+    // const paragraphSplit = new SplitText(".subtitle", {
+    //   type: "lines",
+    // });
 
-    title.chars.forEach((char) => char.classList.add("text-gradient"));
+    // title.chars.forEach((char) => char.classList.add("text-gradient"));
 
-    gsap.from(title.chars, {
-      yPercent: 100,
-      duration: 1.8,
-      ease: "elastic.out(1, 0.8)",
-      stagger: 0.06,
-    })
+    // gsap.from(title.chars, {
+    //   yPercent: 100,
+    //   duration: 1.8,
+    //   ease: "elastic.out(1, 0.8)",
+    //   stagger: 0.06,
+    // })
 
-    gsap.from(paragraphSplit.lines, {
-      opacity: 0,
-      yPercent: 100,
-      duration: 1.8,
-      ease: "expo.out",
-      stagger: 0.06,
-      delay: 1,
-    });
+    // gsap.from(paragraphSplit.lines, {
+    //   opacity: 0,
+    //   yPercent: 100,
+    //   duration: 1.8,
+    //   ease: "expo.out",
+    //   stagger: 0.06,
+    //   delay: 1,
+    // });
 
     gsap
       .timeline({

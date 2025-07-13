@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Modern Negra";
-    src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
+    src: url('/fonts/ModernNegraDemo.woff2') format('woff2');
 }
 
 @theme {
@@ -356,7 +356,7 @@ body {
     }
 
     #contact {
-        @apply relative md:mt-20 mt-0 px-4 text-center w-full overflow-hidden radial-gradient;
+        @apply relative px-4 py-16 text-center w-full min-h-screen overflow-hidden radial-gradient;
 
         #f-left-leaf {
             @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3;

@@ -9,17 +9,17 @@ const Projects = () => {
     const cardRef = useRef([]);
 
     useGSAP(() => {
-        gsap.from(sectionRef.current, {
-            y: 100,
-            opacity: 0,
-            duration: 1,
-            ease: "power3.out",
-            scrollTrigger: {
-                trigger: sectionRef.current,
-                start: "top 80%",
-                toggleActions: "play none none reverse",
-            },
-        });
+        // gsap.from(sectionRef.current, {
+        //     y: 100,
+        //     opacity: 0,
+        //     duration: 1,
+        //     ease: "power3.out",
+        //     scrollTrigger: {
+        //         trigger: sectionRef.current,
+        //         start: "top 80%",
+        //         toggleActions: "play none none reverse",
+        //     },
+        // });
 
         cardRef.current.forEach((card, i) => {
             gsap.fromTo(
@@ -46,7 +46,7 @@ const Projects = () => {
 
     return (
         <section
-            ref={sectionRef}
+            // ref={sectionRef}
             className="min-h-screen px-8 py-16 relative overflow-hidden flex flex-col">
             <img
                 src="/images/left.svg"
@@ -88,6 +88,7 @@ const Projects = () => {
                                 ))}
                             </div>
                             <a
+                                title="link"
                                 href={project.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
