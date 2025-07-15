@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Skill from './components/Skill';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Navbar />
       <Hero />   
       <AboutMe />
+      <Skills />
       <Skill />
       <Experience />
       <Projects />

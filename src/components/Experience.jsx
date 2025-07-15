@@ -3,7 +3,7 @@
 import { useRef, useState } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
-import { allCocktails, goodLists } from '../constants';
+import { allCocktails } from '../constants';
 
 const Experience = () => {
 	const contentRef = useRef();
