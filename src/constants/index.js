@@ -167,38 +167,3 @@ export const contactLinks = [
     link: "https://github.com/bgadkane27",
   },
 ];
-
-export const softSkills = [
-    { name: 'Attentive to Detail', level: 95, icon: Target },
-    { name: 'Strong Analytical Skills', level: 90, icon: Brain },
-    { name: 'Team Collaboration', level: 88, icon: Users },
-    { name: 'Creative Problem Solving', level: 92, icon: Lightbulb },
-    { name: 'Effective Communication', level: 85, icon: MessageCircle },
-    { name: 'Time Management', level: 87, icon: Clock },
-  ];
-
-  export const technicalSkills = [
-    { name: 'HTML & CSS', level: 95, icon: Code },
-    { name: 'JavaScript', level: 90, icon: Code },
-    { name: 'React', level: 88, icon: Code },
-    { name: 'Node.js', level: 82, icon: Database },
-    { name: 'Mobile Development', level: 75, icon: Smartphone },
-    { name: 'UI/UX Design', level: 80, icon: Palette },
-    { name: 'Web APIs', level: 85, icon: Globe },
-    { name: 'Version Control (Git)', level: 90, icon: GitBranch },
-  ];
-
-  import { 
-  Brain, 
-  Users, 
-  Target, 
-  Lightbulb, 
-  MessageCircle, 
-  Clock,
-  Code,
-  Database,
-  Smartphone,
-  Palette,
-  Globe,
-  GitBranch
-} from 'lucide-react';
