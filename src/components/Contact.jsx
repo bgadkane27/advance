@@ -86,9 +86,9 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="block rounded-xl p-4 border border-gray-800 hover:border-gray-600 transition-all duration-300 group max-w-xs"
               >
-                <h3 className="text-xl font-bold mb-1 group-hover:text-pink-500 transition-colors duration-300">
+                <h2 className="text-xl font-bold mb-1 group-hover:text-pink-500 transition-colors duration-300">
                   {item.label}
-                </h3>
+                </h2>
                 <p className="text-gray-400 text-sm">{item.value}</p>
               </a>
             ))}

@@ -74,7 +74,7 @@ const Projects = () => {
                             ref={(el) => (cardRef.current[i] = el)}
                             className="group relative p-6 rounded-2xl border border-gray-800 bg-gradient-to-br from-gray-900 via-gray-950 to-black hover:from-gray-800 hover:via-gray-900 hover:to-gray-950 transition-all duration-300 shadow-[0_0_25px_rgba(255,255,255,0.05)]"
                         >
-                            <h3 className="text-lg font-semibold mb-3">{project.name}</h3>
+                            <h2 className="text-lg font-semibold mb-3">{project.name}</h2>
                             <p className="text-gray-400 text-sm text-justify mb-4 leading-normal tracking-wide">{project.description}</p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
