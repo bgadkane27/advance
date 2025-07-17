@@ -1,7 +1,7 @@
 import { useAnimate } from "framer-motion";
 import {
   Atom, Box, Braces, Brain, BringToFront, Clock, Code, Component,
-  Crosshair, GitBranch, Lightbulb, Projector, SpeechIcon, Target, Users
+  Crosshair, Figma, GitBranch, Lightbulb, Projector, SpeechIcon, Target, Users
 } from "lucide-react";
 
 export const Skill = () => (
@@ -39,6 +39,12 @@ const Skills = () => (
       <LinkBox Icon={Crosshair} label="Product Oriented" />
       <LinkBox Icon={Code} label="HTML & CSS" />
       <LinkBox Icon={Braces} label="JavaScript" />
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-x divide-neutral-900">
+      <LinkBox Icon={Brain} label="Tailwind CSS" />
+      <LinkBox Icon={Braces} label="Three JS" />
+      <LinkBox Icon={Figma} label="Figma" />      
+      <LinkBox Icon={Code} label="C# .Net" />
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-x divide-neutral-900">
       <LinkBox Icon={Atom} label="React" />
