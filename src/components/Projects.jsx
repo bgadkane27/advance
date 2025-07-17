@@ -94,7 +94,7 @@ const Projects = () => {
                                 rel="noopener noreferrer"
                                 className="absolute top-3 right-3"
                             >
-                                <img src="/images/link.png" alt="" className="w-6 h-6"/>
+                                <img src="/images/link.webp" alt="" className="w-6 h-6"/>
                             </a>
                             <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-purple-500/5 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300 pointer-events-none" />
                         </div>

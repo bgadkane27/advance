@@ -44,7 +44,7 @@ export const allCocktails = [
 	{
 		id: 2,
 		name: "WebRelier Software Solutions Pvt Ltd",
-		image: "/images/webrelier.png",
+		image: "/images/webrelier.webp",
 		title: "Software Test Engineer",
 		period: "Aug 2020 - Feb 2023",
 		list : [

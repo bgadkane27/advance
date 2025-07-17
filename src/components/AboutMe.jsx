@@ -38,7 +38,7 @@ const AboutMe = () => {
 
 					<div className="cocktail-img">
 						<img
-							src="/images/under.png"
+							src="/images/under.webp"
 							alt="cocktail"
 							className="abs-center masked-img size-full object-contain"
 						/>

@@ -59,8 +59,8 @@ const Contact = () => {
         alt="background image"
         className="hidden sm:block absolute inset-0 w-full h-full object-contain z-0"
       /> */}
-      <img src="/images/slider-right-leaf.png" alt="leaf-right" id="f-right-leaf" />
-      <img src="/images/slider-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
+      <img src="/images/slider-right-leaf.webp" alt="leaf-right" id="f-right-leaf" />
+      <img src="/images/slider-left-leaf.webp" alt="leaf-left" id="f-left-leaf" />
       <div className="w-full max-w-7xl mx-auto mb-6">
         <h1 className="
                 text-4xl sm:text-6xl font-extrabold max-w-fit mb-4

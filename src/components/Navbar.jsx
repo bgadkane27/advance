@@ -23,7 +23,7 @@ const Navbar = () => {
 	<nav>
 	 <div className='max-w-7xl mx-auto px-4'>
 		<a href="#home" className="flex items-center justify-center gap-2">
-		 <img src="/hero/logo.png" alt="logo" className='w-full h-10' />
+		 <img src="/hero/logo.webp" alt="logo" className='w-10 h-10' />
 		 {/* <p>Baburao Adkane</p> */}
 		</a>
 		

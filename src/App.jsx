@@ -15,7 +15,7 @@ import { Skill} from './components/Skills';
 const App = () => {
   return (
     <main>
-      <SplashCursor />
+      {/* <SplashCursor /> */}
       <Navbar />
       <Hero /> 
       <AboutMe /> 

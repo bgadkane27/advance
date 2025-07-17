@@ -4,6 +4,7 @@ import { useRef, useState } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 import { allCocktails } from '../constants';
+import { CircleChevronLeft, CircleChevronRight } from 'lucide-react';
 
 const Experience = () => {
 	const contentRef = useRef();
@@ -40,8 +41,8 @@ const Experience = () => {
 
 	return (
 		<section id="menu" aria-labelledby="menu-heading">
-			<img src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" />
-			<img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" />
+			<img src="/images/slider-left-leaf.webp" alt="left-leaf" id="m-left-leaf" />
+			<img src="/images/slider-right-leaf.webp" alt="right-leaf" id="m-right-leaf" />
 
 			<div className="cocktail-tabs" aria-label="Cocktail Navigation">
 				{allCocktails.map((cocktail, index) => {
@@ -62,19 +63,27 @@ const Experience = () => {
 
 			<div className="content">
 				<div className="arrows">
-					<button onClick={() => goToSlide(currentIndex - 1)}>
-						<span>Previous</span>
-						<img src="/images/right-arrow.png" alt="right-arrow" aria-hidden="true" />
-					</button>
+					<div 
+					onClick={() => goToSlide(currentIndex - 1)}
+					className='hover:cursor-pointer'
+					>
+						{/* <span>Previous</span> */}
+						{/* <img src="/images/right-arrow.png" alt="right-arrow" aria-hidden="true" /> */}
+						<CircleChevronLeft size={36} color='#b82e85' />
+					</div>
 
-					<button onClick={() => goToSlide(currentIndex + 1)}>
-						<span>Next</span>
-						<img src="/images/left-arrow.png" alt="left-arrow" aria-hidden="true" />
-					</button>
+					<div 
+					onClick={() => goToSlide(currentIndex + 1)}
+					className='hover:cursor-pointer'
+					>
+						{/* <span>Next</span> */}
+						{/* <img src="/images/left-arrow.png" alt="left-arrow" aria-hidden="true" /> */}
+						<CircleChevronRight size={36} color='#b82e85' />
+					</div>
 				</div>
 
 				<div className="cocktail">
-					<img src={currentCocktail.image} className="object-contain" alt='company logo' />
+					<img src={currentCocktail.image} className="" alt='company logo' />
 				</div>
 
 				<div className="recipe">

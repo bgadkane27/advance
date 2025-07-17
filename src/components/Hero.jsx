@@ -70,19 +70,19 @@ const Hero = () => {
               <strong className="sm:text-3xl text-2xl bg-gradient-to-r from-orange-500 via-indigo-500 to-green-500 text-transparent bg-clip-text">Baburao Adkane</strong>
             </div>
             <img
-              src="/hero/profile.png"
+              src="/hero/profile.webp"
               alt="left-leaf"
               className="absolute bottom-0"
             />
           </PixelCard>
         </div>
         <img
-          src="/images/hero-left-leaf.png"
+          src="/images/hero-left-leaf.webp"
           alt="left-leaf"
           className="left-leaf"
         />
         <img
-          src="/images/hero-right-leaf.png"
+          src="/images/hero-right-leaf.webp"
           alt="right-leaf"
           className="right-leaf"
         />
